@@ -11,6 +11,7 @@ public class Sample1 {
 		System.setProperty("webdriver.chrome.driver","D:\\MY PROJECT\\Source Files\\Drivers\\chromedriver.exe");
 		WebDriver driver= new ChromeDriver();
 		driver.get("https://www.google.com");
+		Thread.sleep(2000);
 		driver.quit();
 
 	}
