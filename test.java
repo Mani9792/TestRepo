@@ -12,7 +12,7 @@ public class Sample1 {
 		WebDriver driver= new ChromeDriver();
 		driver.get("https://www.google.com");
 		Thread.sleep(2000);
-		driver.quit;
+		driver.quit();
 
 	}
 
